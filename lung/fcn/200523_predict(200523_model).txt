@@ -1,0 +1,10 @@
+top coord mean of deviation: 4.849 (mm)
+top coord standard deviation: 0.175 (mm)
+top coord accuracy(within 15mm):  0.978
+top coord accuracy(within 10mm):  0.956
+top coord accuracy(within 5mm):  0.856
+bot coord mean of deviation: -16.857 (mm)
+bot coord standard deviation: 0.479 (mm)
+bot coord accuracy(within 15mm):  0.915
+bot coord accuracy(within 10mm):  0.834
+bot coord accuracy(within 5mm):  0.487

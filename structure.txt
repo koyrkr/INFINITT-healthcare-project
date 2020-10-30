@@ -1,0 +1,85 @@
+.
+└ lung
+    ├ dataset
+    │   ├ CHNCXR
+    │   │   ├ input_all_png
+    │   │   ├ input_problematic_png
+    │   │   ├ input_sample_png
+    │   │   ├ output_all_png
+    │   │   │   ├ clustering
+    │   │   │   ├ edge_horizontal
+    │   │   │   ├ edge_vertical
+    │   │   │   ├ fcn
+    │   │   │   └ sobel_magnitude
+    │   │   ├ output_problematic_png
+    │   │   │   ├ clustering
+    │   │   │   ├ edge_horizontal
+    │   │   │   ├ edge_vertical
+    │   │   │   ├ fcn
+    │   │   │   └ sobel_magnitude
+    │   │   └ output_sample_png
+    │   │       ├ canny
+    │   │       ├ edge_horizontal
+    │   │       └ fcn
+    │   ├ NLMCXR
+    │   │   ├ dataset_npy
+    │   │   ├ input_all_png
+    │   │   ├ input_problematic_png
+    │   │   ├ input_sample_png
+    │   │   ├ ManualMask
+    │   │   │   ├ leftMask
+    │   │   │   ├ mask
+    │   │   │   └ rightMask
+    │   │   ├ mask
+    │   │   ├ output_all_png
+    │   │   ├ output_problematic_png
+    │   │   └ output_sample_png
+    │   ├ RSNA
+    │   │   ├ input_all_dicom
+    │   │   ├ input_all_png
+    │   │   ├ input_problematic_dicom
+    │   │   ├ input_problematic_png
+    │   │   ├ input_sample_dicom
+    │   │   ├ input_sample_png
+    │   │   ├ input_test_dicom
+    │   │   ├ input_test_png
+    │   │   ├ output_problematic_png
+    │   │   │   ├ canny
+    │   │   │   └ fcn
+    │   │   ├ output_sample_png
+    │   │   │   ├ canny
+    │   │   │   └ fcn
+    │   │   ├ output_test_png
+    │   │   │   ├ canny
+    │   │   │   └ fcn
+    │   │   └ output_train_png
+    │   │       ├ canny
+    │   │       └ fcn
+    │   └ siim
+    │       ├ input_all_dicom
+    │       ├ input_all_png
+    │       ├ input_problematic_dicom
+    │       ├ input_problematic_png
+    │       ├ input_sample_dicom
+    │       ├ input_sample_png
+    │       ├ input_test_dicom
+    │       ├ input_test_png
+    │       ├ output_all_png
+    │       │   ├ canny
+    │       │   └ fcn
+    │       ├ output_problematic_png
+    │       │   └ fcn
+    │       ├ output_sample_png
+    │       │   └ canny
+    │       └ output_test_png
+    │           ├ fcn
+    │           └ windowing
+    ├ edge_detection
+    │   └ __pycache__
+    ├ fcn
+    │   ├ pred_image
+    │   └ test_image
+    ├ kmeans
+    ├ tools
+    └ windowing
+
